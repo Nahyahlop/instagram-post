@@ -1,16 +1,17 @@
 body {
   margin:0;
   font-family: 'Roboto', sans-serif;
-  background-color: white;
+  background-color: #C0BCBC;
 }
-
 div {
   border: 1px dashed red;
 }
+
 .post{
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -31,22 +32,29 @@ img{
     background-color: white;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-post{
-    justify-content: center;
-}
+
+
 .header-post{
-    width: 550px;
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
+  width: 100%;
+  background-color: white;
+  padding:0;
 }
 h1{
     width: 550px;
     text-align: left;
+    padding-left: 10px;
+    margin:0
+}
 .caption{
     padding-left: 10px;
     padding-right: 10px;
+}
+.container{
+  width: 550px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  box-sizing: border-box;
 }
