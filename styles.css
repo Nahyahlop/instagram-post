@@ -1,0 +1,33 @@
+body {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #C0BCBC;
+}
+
+
+.post{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+h2{
+    width: 80%;
+}
+.numer{
+   position: absolute;
+   right: 0;
+}
+img{
+    width:100%
+}
+.feed{
+    width: 405px;
+    height:568px;
+    margin: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+post{
+    justify-content: center;
+}
