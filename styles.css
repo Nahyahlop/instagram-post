@@ -4,7 +4,9 @@ body {
   background-color: white;
 }
 
-
+div {
+  border: 1px dashed red;
+}
 .post{
     position: relative;
     display: flex;
@@ -42,8 +44,8 @@ post{
     text-align: center;
 }
 h1{
-    margin:0;
-}
+    width: 550px;
+    text-align: left;
 .caption{
     padding-left: 10px;
     padding-right: 10px;
