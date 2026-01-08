@@ -1,10 +1,7 @@
 body {
   margin:0;
   font-family: 'Roboto', sans-serif;
-  background-color: #C0BCBC;
-}
-div {
-  border: 1px dashed red;
+  background-color: #EAEAEA;
 }
 
 .post{
@@ -12,22 +9,24 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 h2{
     width: 80%;
     
 }
-.numer{
-   position: absolute;
+.number{
    right: 0;
+   color:#8A8A8A;
 }
 img{
-    width:100%
+    width: 100%;
+    height: 400px;     
+    object-fit: cover;
 }
 .feed{
-    width: 550px;
+    width: 600px;
     margin: auto;
     background-color: white;
     padding-top: 5px;
@@ -40,20 +39,19 @@ img{
 .header-post{
   width: 100%;
   background-color: white;
-  padding:0;
+  padding:8px 0;
 }
 h1{
-    width: 550px;
+    width: 600px;
     text-align: left;
-    padding-left: 10px;
     margin:0
 }
 .caption{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .container{
-  width: 550px;
+  width: 600px;
   margin: 0 auto;
   padding: 10px 0px;
   box-sizing: border-box;
