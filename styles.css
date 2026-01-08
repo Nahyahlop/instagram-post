@@ -5,7 +5,6 @@ body {
 }
 
 .post{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,17 +12,19 @@ body {
     padding-right: 20px;
 }
 h2{
-    width: 80%;
+    margin: 0;
+    font-size: 18px;
     
 }
 .number{
-   right: 0;
    color:#8A8A8A;
+   font-size: 14px;
 }
 img{
     width: 100%;
     height: 400px;     
     object-fit: cover;
+    display: block;
 }
 .feed{
     width: 600px;
@@ -37,22 +38,19 @@ img{
 
 
 .header-post{
-  width: 100%;
   background-color: white;
   padding:8px 0;
 }
 h1{
-    width: 600px;
     text-align: left;
     margin:0
 }
 .caption{
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 14px;
 }
 .container{
   width: 600px;
   margin: 0 auto;
-  padding: 10px 0px;
-  box-sizing: border-box;
 }
